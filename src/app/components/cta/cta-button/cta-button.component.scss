@@ -1,0 +1,22 @@
+.button {
+  margin-top: 15px;
+  width: 219px;
+  height: 64px;
+  background: #094B72;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.gap-button {
+  display: flex;
+  gap: 17.33px;
+}
+
+.call-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #F9F8F9;
+}

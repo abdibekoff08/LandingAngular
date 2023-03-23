@@ -1,0 +1,14 @@
+<div class="navbar">
+  <div class="navbar-content">
+    <app-navbar-logo></app-navbar-logo>
+    <div class="link-search-group">
+      <div class="navbar-links">
+        <app-navbar-link
+          *ngFor="let link of links"
+          [link]="link"
+        ></app-navbar-link>
+      </div>
+    <app-navbar-search></app-navbar-search>
+    </div>
+  </div>
+</div>
